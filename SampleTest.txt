@@ -1,0 +1,8 @@
+POST http://localhost:62987/testport HTTP/1.1
+content-type: application/json
+
+{
+    "host": "http://www.yahoo.com",
+    "port": 80,
+    "timeoutSeconds": 5
+}
