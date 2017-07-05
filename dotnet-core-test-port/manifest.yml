@@ -1,0 +1,8 @@
+﻿---
+applications:
+- name: test-port
+  instances: 1
+  memory: 512M
+  disk_quota: 512M
+  stack: windows2012R2
+  buildpack: dotnet_core_buildpack
